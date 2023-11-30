@@ -2,6 +2,8 @@ Projet LS-Py
 
 Bienvenue sur le projet LS-Py, une implémentation simple de la commande ls en Python.
 
+GET /github/stars/:user/:repo
+
 
 Introduction
 

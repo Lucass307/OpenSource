@@ -1,40 +1,42 @@
-Projet LS-Py
+# Projet LS-Py
 
-Bienvenue sur le projet LS-Py, une implémentation simple de la commande ls en Python.
+Bienvenue dans LS-Py, une implémentation simple en Python de la commande `ls`.
 
-GET /github/stars/:user/:repo
+![GitHub stars](https://img.shields.io/github/stars/Lucass307/OpenSource?style=social)
+
+## Introduction
+
+LS-Py est une solution légère et conviviale pour lister le contenu d'un répertoire en utilisant Python. Que vous soyez débutant et souhaitiez explorer les commandes de base ou un développeur expérimenté cherchant à intégrer cette fonctionnalité dans un script, LS-Py est là pour simplifier la gestion des fichiers.
+
+## Installation
+
+Pour utiliser LS-Py, suivez ces étapes :
+
+1. Clonez le dépôt :
+
+    git clone https://github.com/Lucass307/OpenSource.git
+
+3. Accédez au répertoire du projet :
+
+    cd OpenSource
+
+4. Exécutez le script LS-Py :
+
+    python ls.py
+
+Par défaut, LS-Py liste le contenu du répertoire actuel. Vous pouvez spécifier un répertoire différent en fournissant son chemin en tant qu'argument :
+
+python ls.py /chemin/vers/le/repertoire
 
 
-Introduction
-
-LS-Py est une solution légère et facile à utiliser pour lister le contenu d'un répertoire en utilisant Python. Que vous soyez un débutant cherchant à explorer les commandes de base ou un développeur expérimenté souhaitant intégrer cette fonctionnalité dans un script, LS-Py est là pour simplifier la gestion des fichiers.
-Installation
-
-LS-Py peut être utilisé sur différentes distributions Python. Voici comment l'installer :
-
-Prérequis
-
-Assurez-vous d'avoir Python installé sur votre système. Vous pouvez le télécharger ici.
-Installation avec pip
-
-pip install ls-py
-
-
-Utilisation
-
-Une fois installé, vous pouvez utiliser LS-Py de la manière suivante :
-
-ls-py [options] [chemin]
-
-Remplacez [options] par les options que vous souhaitez utiliser (par exemple, -l pour une liste détaillée) et [chemin] par le chemin du répertoire que vous souhaitez explorer.
 Contribuer
 
-Nous sommes ravis que vous envisagiez de contribuer à LS-Py ! Pour participer au développement, suivez ces étapes :
+Nous accueillons favorablement les contributions pour améliorer LS-Py ! Pour contribuer, suivez ces étapes :
 
-    Forkez le projet.
-    Créez votre branche de fonctionnalité (git checkout -b feature/NomDeLaFonctionnalite).
-    Committez vos modifications (git commit -m 'Ajout d'une nouvelle fonctionnalité').
-    Pushez vers la branche (git push origin feature/NomDeLaFonctionnalite).
+    Forkz le projet.
+    Créez une nouvelle branche pour votre fonctionnalité (git checkout -b feature/NomDeVotreFonctionnalite).
+    Commitez vos modifications (git commit -m 'Ajouter une nouvelle fonctionnalité').
+    Pushez vers votre branche (git push origin feature/NomDeVotreFonctionnalite).
     Ouvrez une pull request.
 
 Merci de contribuer au projet LS-Py ! 🚀

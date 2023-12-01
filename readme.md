@@ -34,10 +34,10 @@ Contribuer
 
 Nous accueillons favorablement les contributions pour améliorer LS-Py ! Pour contribuer, suivez ces étapes :
 
-    Forkz le projet.
-    Créez une nouvelle branche pour votre fonctionnalité (git checkout -b feature/NomDeVotreFonctionnalite).
-    Commitez vos modifications (git commit -m 'Ajouter une nouvelle fonctionnalité').
-    Pushez vers votre branche (git push origin feature/NomDeVotreFonctionnalite).
-    Ouvrez une pull request.
+- Forkz le projet.
+- Créez une nouvelle branche pour votre fonctionnalité (git checkout -b feature/NomDeVotreFonctionnalite).
+- Commitez vos modifications (git commit -m 'Ajouter une nouvelle fonctionnalité').
+- Pushez vers votre branche (git push origin feature/NomDeVotreFonctionnalite).
+- Ouvrez une pull request.
 
 Merci de contribuer au projet LS-Py ! 🚀

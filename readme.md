@@ -17,17 +17,18 @@ Pour utiliser LS-Py, suivez ces étapes :
     git clone https://github.com/Lucass307/OpenSource.git
     ```
 3. Accédez au répertoire du projet :
-
+   ```bash
     cd OpenSource
-
+   ```
 4. Exécutez le script LS-Py :
-
+   ```bash
     python ls.py
-
+   ```
 Par défaut, LS-Py liste le contenu du répertoire actuel. Vous pouvez spécifier un répertoire différent en fournissant son chemin en tant qu'argument :
 
+```bash
 python ls.py /chemin/vers/le/repertoire
-
+```
 
 Contribuer
 

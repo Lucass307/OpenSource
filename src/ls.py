@@ -9,3 +9,5 @@ def ls(directory="."):
     else:
         print(f"Directory '{directory}' does not exist.")
 
+
+ls()

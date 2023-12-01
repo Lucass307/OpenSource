@@ -31,7 +31,7 @@ class TestLSFunction(unittest.TestCase):
 
     def test_ls_custom_directory(self):
         # Appeler la fonction ls avec un répertoire spécifique
-        custom_directory = "C:\Users\"
+        custom_directory = "C:\Users"
         ls(custom_directory)
 
         # Récupérer la sortie

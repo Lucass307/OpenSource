@@ -1,16 +1,8 @@
-import os
+# test_ls_function.py
 import unittest
 from unittest.mock import patch
-from io import StringIO  # Importez StringIO depuis le module io
-
-def ls(directory="."):
-    if os.path.exists(directory):
-        files = os.listdir(directory)
-
-        for file in files:
-            print(file)
-    else:
-        print(f"Directory '{directory}' does not exist.")
+from io import StringIO
+from ls import ls  # Importez la fonction ls depuis votre module principal
 
 class TestLSFunction(unittest.TestCase):
     @patch("sys.stdout", new_callable=StringIO)

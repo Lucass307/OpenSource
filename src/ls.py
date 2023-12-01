@@ -6,4 +6,5 @@ def ls(directory="."):
     for file in files:
         print(file)
 
+
 ls()

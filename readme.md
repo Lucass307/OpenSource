@@ -20,7 +20,11 @@ Pour utiliser LS-Py, suivez ces étapes :
    ```bash
     cd OpenSource
    ```
-4. Exécutez le script LS-Py :
+4. Accédez au répertoire du code :
+   ```bash
+    cd src
+   ```
+5. Exécutez le script LS-Py :
    ```bash
     python ls.py
    ```

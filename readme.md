@@ -10,7 +10,7 @@ ls.py est une solution légère et conviviale pour lister le contenu d'un réper
 
 ## Installation
 
-Pour utiliser LS-Py, suivez ces étapes :
+Pour utiliser ls.py, suivez ces étapes :
 
 1. Clonez le dépôt :
    ```bash

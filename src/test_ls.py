@@ -1,5 +1,6 @@
 # test_ls_function.py
 import unittest
+import os
 from unittest.mock import patch
 from io import StringIO
 from ls import ls  # Importez la fonction ls depuis votre module principal

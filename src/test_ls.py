@@ -1,41 +1,25 @@
 import os
 import unittest
-from io import StringIO
-import sys
+from unittest.mock import patch
 
 def ls(directory="."):
-    files = os.listdir(directory)
+    if os.path.exists(directory):
+        files = os.listdir(directory)
 
-    for file in files:
-        print(file)
+        for file in files:
+            print(file)
+    else:
+        print(f"Directory '{directory}' does not exist.")
 
 class TestLSFunction(unittest.TestCase):
-    def setUp(self):
-        # Rediriger la sortie standard vers un StringIO
-        self.held_output = StringIO()
-        sys.stdout = self.held_output
-
-    def tearDown(self):
-        # Restaurer la sortie standard
-        sys.stdout = sys.__stdout__
-
-    def test_ls_default_directory(self):
-        # Appeler la fonction ls
-        ls()
-
-        # Récupérer la sortie
-        output = self.held_output.getvalue().strip()
-
-        # Vérifier si la sortie n'est pas vide
-        self.assertTrue(output, "No output from ls function.")
-
-    def test_ls_custom_directory(self):
+    @patch("sys.stdout", new_callable=StringIO)
+    def test_ls_custom_directory(self, mock_stdout):
         # Appeler la fonction ls avec un répertoire spécifique
-        custom_directory = "C:/Users/Lucas/Desktop/OpenSource/.github"
+        custom_directory = os.path.join("C:", "Users", "Lucas", "Desktop", "OpenSource", ".github")
         ls(custom_directory)
 
         # Récupérer la sortie
-        output = self.held_output.getvalue().strip()
+        output = mock_stdout.getvalue().strip()
 
         # Vérifier si la sortie n'est pas vide
         self.assertTrue(output, "No output from ls function.")

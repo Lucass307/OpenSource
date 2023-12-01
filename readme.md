@@ -6,7 +6,7 @@ Bienvenue dans LS-Py, une implémentation simple en Python de la commande `ls`.
 
 ## Introduction
 
-LS-Py est une solution légère et conviviale pour lister le contenu d'un répertoire en utilisant Python. Que vous soyez débutant et souhaitiez explorer les commandes de base ou un développeur expérimenté cherchant à intégrer cette fonctionnalité dans un script, LS-Py est là pour simplifier la gestion des fichiers.
+ls.py est une solution légère et conviviale pour lister le contenu d'un répertoire en utilisant Python. Que vous soyez débutant et souhaitiez explorer les commandes de base ou un développeur expérimenté cherchant à intégrer cette fonctionnalité dans un script, LS-Py est là pour simplifier la gestion des fichiers.
 
 ## Installation
 
@@ -36,12 +36,12 @@ python ls.py /chemin/vers/le/repertoire
 
 Contribuer
 
-Nous accueillons favorablement les contributions pour améliorer LS-Py ! Pour contribuer, suivez ces étapes :
+Nous accueillons favorablement les contributions pour améliorer ls.py ! Pour contribuer, suivez ces étapes :
 
-- Forkz le projet.
+- Forkez le projet.
 - Créez une nouvelle branche pour votre fonctionnalité (git checkout -b feature/NomDeVotreFonctionnalite).
 - Commitez vos modifications (git commit -m 'Ajouter une nouvelle fonctionnalité').
 - Pushez vers votre branche (git push origin feature/NomDeVotreFonctionnalite).
 - Ouvrez une pull request.
 
-Merci de contribuer au projet LS-Py ! 🚀
+Merci de contribuer au projet ls.py ! 🚀

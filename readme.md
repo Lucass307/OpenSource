@@ -13,9 +13,9 @@ LS-Py est une solution légère et conviviale pour lister le contenu d'un réper
 Pour utiliser LS-Py, suivez ces étapes :
 
 1. Clonez le dépôt :
-
+   ```bash
     git clone https://github.com/Lucass307/OpenSource.git
-
+    ```
 3. Accédez au répertoire du projet :
 
     cd OpenSource

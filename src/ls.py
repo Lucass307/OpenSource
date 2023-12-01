@@ -9,3 +9,5 @@ def ls(directory="."):
             print(file)
     else:
         print(f"Directory '{directory}' does not exist. Please try again.")
+
+        fk.jghaekughaweliughaeirtfgby

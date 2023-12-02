@@ -1,4 +1,3 @@
-# ls_function.py
 import os
 
 def ls(directory="."):
